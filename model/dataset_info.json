@@ -1,0 +1,10 @@
+{
+  "dataset_name": "Cardiovascular Disease Dataset",
+  "source": "Kaggle / Open-source mirror",
+  "dataset_url": "https://raw.githubusercontent.com/caravanuden/cardio/master/cardio_train.csv",
+  "kaggle_url": "https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset",
+  "instances": 68641,
+  "features": 14,
+  "target_name": "Cardio (0 = no disease, 1 = disease)",
+  "notes": "11 base features + 3 engineered features (age_years, bmi, pulse_pressure)"
+}
