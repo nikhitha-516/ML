@@ -1,8 +1,8 @@
 # Machine Learning Assignment 2
 
 ## 1. Mandatory Submission Links
-- GitHub Repository Link: `ADD_YOUR_GITHUB_REPO_LINK_HERE`
-- Live Streamlit App Link: `ADD_YOUR_STREAMLIT_APP_LINK_HERE`
+- GitHub Repository Link: https://github.com/nikhitha-516/ML
+- Live Streamlit App Link: https://nikhitha-ml-assignment.streamlit.app/
 - BITS Virtual Lab Screenshot: add screenshot file in repo and in final PDF (example path: `inv/bits_lab_screenshot.png`)
 
 ## 2. Problem Statement
