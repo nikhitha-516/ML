@@ -1,14 +1,9 @@
 # Machine Learning Assignment 2
 
-## 1. Mandatory Submission Links
-- GitHub Repository Link: https://github.com/nikhitha-516/ML
-- Live Streamlit App Link: https://nikhitha-ml-assignment.streamlit.app/
-- BITS Virtual Lab Screenshot: add screenshot file in repo and in final PDF (example path: `inv/bits_lab_screenshot.png`)
-
-## 2. Problem Statement
+## 1. Problem Statement
 Build and compare 6 classification models on one common dataset, evaluate them using required metrics, and deploy an interactive Streamlit app for model selection, evaluation, and prediction.
 
-## 3. Dataset Description
+## 2. Dataset Description
 - Dataset Name: Cardiovascular Disease Dataset
 - Source: Kaggle / open-source mirror
 - Kaggle URL: https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset
@@ -19,7 +14,7 @@ Build and compare 6 classification models on one common dataset, evaluate them u
 - Features used: 14 (`11` base + `3` engineered: `age_years`, `bmi`, `pulse_pressure`)
 - Why selected: Satisfies assignment constraints (instances > 500 and features >= 12).
 
-## 4. Models Used
+## 3. Models Used
 1. Logistic Regression
 2. Decision Tree Classifier
 3. K-Nearest Neighbors (kNN)
@@ -27,7 +22,7 @@ Build and compare 6 classification models on one common dataset, evaluate them u
 5. Random Forest (Ensemble)
 6. XGBoost (Ensemble)
 
-## 5. Comparison Table (Required Metrics)
+## 4. Comparison Table (Required Metrics)
 | ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC |
 |---|---:|---:|---:|---:|---:|---:|
 | Logistic Regression | 0.7224 | 0.7888 | 0.7495 | 0.6592 | 0.7014 | 0.4473 |
@@ -37,7 +32,7 @@ Build and compare 6 classification models on one common dataset, evaluate them u
 | Random Forest (Ensemble) | 0.7121 | 0.7721 | 0.7181 | 0.6880 | 0.7028 | 0.4242 |
 | XGBoost (Ensemble) | 0.7301 | 0.7988 | 0.7545 | 0.6737 | 0.7118 | 0.4622 |
 
-## 6. Observations on Model Performance
+## 5. Observations on Model Performance
 | ML Model Name | Observation about model performance |
 |---|---|
 | Logistic Regression | Strong baseline; high precision and balanced overall performance. |
@@ -47,7 +42,7 @@ Build and compare 6 classification models on one common dataset, evaluate them u
 | Random Forest (Ensemble) | Stable ensemble performance; better than single tree and close to Logistic Regression. |
 | XGBoost (Ensemble) | Best overall metrics in this run (highest Accuracy, AUC, F1, MCC). |
 
-## 7. Streamlit Features Implemented
+## 6. Streamlit Features Implemented
 - CSV test dataset upload option (`.csv`)
 - Model selection dropdown for all 6 models
 - Display of evaluation metrics (Accuracy, AUC, Precision, Recall, F1, MCC)
@@ -55,7 +50,7 @@ Build and compare 6 classification models on one common dataset, evaluate them u
 - Classification report table
 - URL-based dataset loading when no file is uploaded (cardiovascular dataset source URL)
 
-## 8. Project Structure
+## 7. Project Structure
 ```text
 project-folder/
 |-- app.py
@@ -77,7 +72,7 @@ project-folder/
 |   |-- xgboost_ensemble.pkl
 ```
 
-## 9. How to Run Locally
+## 8. How to Run Locally
 ```bash
 pip install -r requirements.txt
 python3 model/train_models.py
