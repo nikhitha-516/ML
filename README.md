@@ -83,17 +83,3 @@ pip install -r requirements.txt
 python3 model/train_models.py
 streamlit run app.py
 ```
-
-## 10. Streamlit Community Cloud Deployment
-1. Push this repository to GitHub.
-2. Open https://streamlit.io/cloud and sign in.
-3. Click **New app**.
-4. Select repository and branch.
-5. Set main file path as `app.py`.
-6. Deploy and copy the live app URL.
-
-## 11. Notes for Final PDF Submission
-- Include GitHub repo link.
-- Include live Streamlit app link.
-- Include BITS Virtual Lab screenshot.
-- Include this full README content in the PDF.
